@@ -12,7 +12,7 @@ export function alterar(tarefas) {
   }
 
   const novaDescricao = prompt("Informe a nova descrição da tarefa:");
-  tarefas[indexAlterar].descricao = novaDescricao;
+  tarefas[indexAlterar] = novaDescricao;
   console.log("Tarefa alterada.");
 }
 
