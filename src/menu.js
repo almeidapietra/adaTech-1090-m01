@@ -36,7 +36,7 @@ rI.question("O que você quer fazer? ", (numeroOpcao) => {
       buscar()
       break;
     default:
-      console.log("Não entendi te entendi. Digita um número de 1 a 6 para dizer o que você quer fazer.");
+      console.log("Não entendi te entendi. Digita um número de 1 a 6 para informar o que você quer fazer.");
   }
 
   rI.close();
